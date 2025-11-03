@@ -203,16 +203,18 @@ body {
 }
 
 .project-card {
-  background: var(--light-gray);
-  border-radius: 8px;
-  overflow: hidden;
-  cursor: pointer;
-  transition: var(--transition);
-  animation: fadeInUp 0.6s ease both;
+    background: var(--light-gray);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: var(--transition); 
+    animation: fadeInUp 0.6s ease both;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* <--- ADD THIS LINE */
 }
 
 .project-card:hover {
-  transform: translateY(-10px);
+    transform: translateY(-5px); /* <--- ADJUSTED LIFT */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* <--- ADD THIS LINE */
 }
 
 .project-image {
