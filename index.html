@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edwin Gyasi - Graphic Design Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Edwin Gyasi</div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Creative Design Studio</h1>
+            <p class="hero-subtitle">Specializing in Branding, Editorial, Packaging & Digital Design</p>
+            <a href="#work" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- Project Grid -->
+    <section id="work" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="editorial">Editorial</button>
+                <button class="filter-btn" data-filter="packaging">Packaging</button>
+                <button class="filter-btn" data-filter="digital">Digital</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <div class="project-card" data-category="branding">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div class="project-overlay">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="white" stroke-width="2">
+                                <path d="M15 10l10 10m0-10l-10 10"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Brand Identity</h3>
+                        <p>Complete branding system for tech startup</p>
+                        <span class="project-tag">Branding</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="editorial">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div class="project-overlay">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="white" stroke-width="2">
+                                <path d="M15 10l10 10m0-10l-10 10"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Magazine Cover</h3>
+                        <p>Editorial design for lifestyle publication</p>
+                        <span class="project-tag">Editorial</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="packaging">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div class="project-overlay">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="white" stroke-width="2">
+                                <path d="M15 10l10 10m0-10l-10 10"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Product Packaging</h3>
+                        <p>Luxury cosmetics brand packaging design</p>
+                        <span class="project-tag">Packaging</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="digital">
+                    <div class="project-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <div class="project-overlay">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="white" stroke-width="2">
+                                <path d="M15 10l10 10m0-10l-10 10"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Website Design</h3>
+                        <p>E-commerce website interface design</p>
+                        <span class="project-tag">Digital</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="branding">
+                    <div class="project-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                        <div class="project-overlay">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="white" stroke-width="2">
+                                <path d="M15 10l10 10m0-10l-10 10"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Logo System</h3>
+                        <p>Multi-brand logo design and guidelines</p>
+                        <span class="project-tag">Branding</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="digital">
+                    <div class="project-image" style="background: linear-gradient(135deg, #ff9a56 0%, #ff6a88 100%);">
+                        <div class="project-overlay">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="white" stroke-width="2">
+                                <path d="M15 10l10 10m0-10l-10 10"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Mobile App UI</h3>
+                        <p>iOS app design and user experience</p>
+                        <span class="project-tag">Digital</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="editorial">
+                    <div class="project-image" style="background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);">
+                        <div class="project-overlay">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="white" stroke-width="2">
+                                <path d="M15 10l10 10m0-10l-10 10"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Annual Report</h3>
+                        <p>Corporate annual report design</p>
+                        <span class="project-tag">Editorial</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="packaging">
+                    <div class="project-image" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                        <div class="project-overlay">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="white" stroke-width="2">
+                                <path d="M15 10l10 10m0-10l-10 10"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Food Packaging</h3>
+                        <p>Artisan food brand packaging system</p>
+                        <span class="project-tag">Packaging</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-placeholder" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I'm Edwin, a passionate graphic designer with 5+ years of experience creating stunning visual identities for brands across different industries.</p>
+                    <p>My approach combines strategic thinking with creative excellence, ensuring every design solution is both beautiful and effective.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">30+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Brand Identity</h3>
+                    <p>Logo design, brand guidelines, and complete visual identity systems</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📐</div>
+                    <h3>Packaging Design</h3>
+                    <p>Product packaging, labels, and structural design solutions</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">✏️</div>
+                    <h3>Editorial Design</h3>
+                    <p>Magazine layouts, brochures, and print collateral</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Digital Design</h3>
+                    <p>Web design, app UI/UX, and digital assets</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="contact-subtitle">Have a project in mind? Get in touch and let's create something amazing.</p>
+            
+            <a href="mailto:edwingyasi4@gmail.com" class="contact-cta">Send me an email</a>
+
+            <!-- Social Links -->
+            <div class="social-links">
+                <a href="https://instagram.com/thedesigner_edwin" class="social-icon" target="_blank" title="Instagram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.265-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"/>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com/in/edwin-gyasi" class="social-icon" target="_blank" title="LinkedIn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.722-2.004 1.418-.103.249-.129.597-.129.946v5.441h-3.554s.047-8.842 0-9.769h3.554v1.381c-.009.015-.021.029-.031.042h.031v-.042c.43-.664 1.195-1.612 2.905-1.612 2.124 0 3.714 1.388 3.714 4.373v5.627zM5.337 8.855c-1.144 0-1.915-.758-1.915-1.704 0-.951.77-1.704 1.954-1.704 1.185 0 1.915.753 1.942 1.704 0 .946-.757 1.704-1.981 1.704zm1.581 11.597H3.715V9.684h3.203v10.768zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+                    </svg>
+                </a>
+                <a href="https://x.com/gyasi-edwin" class="social-icon" target="_blank" title="X (Twitter)">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.6l-5.165-6.75-5.913 6.75h-3.308l7.73-8.835L.424 2.25h6.7l4.67 6.169L17.77 2.25h.474zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Edwin Gyasi</h4>
+                    <p>Graphic Designer & Creative Director</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#work">Work</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <a href="mailto:edwingyasi4@gmail.com">edwingyasi4@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Edwin Gyasi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
